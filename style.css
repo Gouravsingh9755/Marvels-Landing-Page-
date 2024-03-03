@@ -1,0 +1,104 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://wallpapercave.com/wp/wp7174350.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.box1{
+    height: 50%;
+    width: 20%;
+    background-color: green;
+    border-radius: 20px;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/41/94/2KPBsq.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.box1:hover{
+    transition: all ease 0.6s;
+    scale: 1.2;
+
+}
+
+.box2{  
+    height: 60%;
+    width: 30%;
+    background-color: red;
+    border-radius: 20px;
+    background-image: url(https://i.pinimg.com/originals/9c/ec/7f/9cec7ff57d2489c3420ac18458b48a46.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2:hover{
+    transition: all ease 0.6s;
+    scale: 1.2;
+
+}
+
+.box3{
+
+    height: 50%;
+    width: 20%;
+    background-color: blue;
+    border-radius: 20px;
+    background-image: url(https://wallpapercave.com/wp/wp9657041.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3:hover{
+    transition: all ease 0.6s;
+    scale: 1.2;
+
+}
+h1{
+position: absolute;
+    /* color: aliceblue; */
+    bottom: 3%;
+    font-size: 70px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(hsl(0, 0%, 100%), #1f1f1f, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+H1:hover{
+    transition: all ease 0.6s;
+    scale: 1.2;
+
+    color: black;
+}
+
+img{
+
+    position: absolute;
+    bottom: 2%;
+}
+
+
+
